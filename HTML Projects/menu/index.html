@@ -3,22 +3,102 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>menu</title>
-    <style></style>
+
+    <title>Menu</title>
+
+    <style>
+      body {
+        text-align: center;
+      }
+
+      header {
+        text-align: center;
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        flex-wrap: wrap;
+        flex-direction: column;
+      }
+
+      .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      img {
+        width: 250px;
+      }
+
+      .about {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      p {
+        max-width: 700px;
+      }
+    </style>
   </head>
+
   <body>
-    <h1>All resturant recipy</h1>
-    <div class="container">
-      <div class="menu">
-        <h2>Cheese Pizza large size</h2>
-        <img src="" alt="" />
-        <button>Order Now</button>
+    <header>
+      <h1>All Restaurant Recipe</h1>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="menu">
+          <h2>Cheese Pizza Large Size</h2>
+
+          <img src="cheeseBurger.png" alt="Cheese Burger" />
+
+          <button>Order Now</button>
+        </div>
+
+        <div class="menu">
+          <h2>Cheese Burger</h2>
+
+          <img src="cheesePizza.png" alt="Cheese Pizza" />
+
+          <button>Order Now</button>
+        </div>
       </div>
-      <div class="menu">
-        <h2>Cheese Burger</h2>
-        <img src="" alt="" />
-        <button>Order Now</button>
-      </div>
-    </div>
+    </main>
+
+    <section class="about">
+      <h2>About Us</h2>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+        perferendis natus repellat officia odio asperiores neque dolorem earum.
+        Distinctio ipsum nihil, in quibusdam quidem vel dolore beatae quaerat
+        dolor dolores.
+      </p>
+
+      <iframe
+        width="260"
+        height="215"
+        src="https://www.youtube.com/embed/sTjBt4LsvoE?si=3HR0hxO_lqb17i4X"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      >
+      </iframe>
+    </section>
+    <hr />
+    <footer>
+      <h1>Maxican Restaurant</h1>
+    </footer>
   </body>
 </html>
