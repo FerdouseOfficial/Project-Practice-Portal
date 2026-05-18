@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Let's Give Us Your Information</h1>
+    <form action="#">
+      <input type="text" placeholder="Your First Name" />
+      <input type="text" placeholder="Your Last Name" />
+      <input type="tel" placeholder="Your Phone Number" />
+      <input type="email" placeholder="Your Email" />
+      <label for="country">Your Country</label>
+      <select name="country" id="country">
+        <option value="Bangladesh">Bangladesh</option>
+        <option value="India">India</option>
+        <option value="Saudi Arabia">Saudi Arabia</option>
+      </select>
+      <div class="Gender">
+        <input type="radio" name="male" id="male" />
+        <label for="male">male</label>
+        <input type="radio" name="female" id="female" />
+        <label for="female">Female</label>
+      </div>
+      <input type="submit" placeholder="Submit your Data" />
+    </form>
+  </body>
+</html>
